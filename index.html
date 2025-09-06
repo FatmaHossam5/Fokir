@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fokir-Personal Portfolio Bootstrap Template </title>
         <script src="https://use.fontawesome.com/0e6379521f.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -14,7 +16,8 @@
         <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-        <div class="section-1">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div class="section-1" id="home">
                 <div class="layer">
                     <div class="nav">
                         <div class="logo">
@@ -23,50 +26,51 @@
                         </div>
                         <div class="links">
                             <ul>
-                                <li> <a href="" class="home">Home</a> </li>
-                                <li> <a href="">About</a> </li>
-                                <li> <a href="">Services</a> </li>
-                                <li> <a href=""> Portfolio</a></li>
-                                <li> <a href="">Testimonial</a></li>
-                                <li> <a href="">Blog</a></li>
-                                <li> <a href="">Contact</a> </li>
-                                <div class="clr"></div>
+                                <li> <a href="#home" class="home">Home</a> </li>
+                                <li> <a href="#about">About</a> </li>
+                                <li> <a href="#services">Services</a> </li>
+                                <li> <a href="#portfolio">Portfolio</a></li>
+                                <li> <a href="#testimonial">Testimonial</a></li>
+                                <li> <a href="#blog">Blog</a></li>
+                                <li> <a href="#contact">Contact</a> </li>
                             </ul>
                         </div>
-                        <div class="clr"></div>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                   <div class="content">
+                </div>
+                <div class="content">
                     <h4>Hello i'm</h4>
                     <h1>ALEX SMITH</h1>
                     <h5>Professional Web Developer</h5>
-                   </div>    
-                   
-                
-            
-            
+                </div>    
         </div>
-    </div>
-    <div class="section-2">
-        <div class="layer-border">
-            <div class="border-space">
-                <div class="image">
-                    <img src="/img/about/profile.jpg" alt="human">
-                    <div class="icons-layer">
-                        <div class="icons">
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-google"></i>
-                            <i class="fa-brands fa-github"></i>
+    <main id="main-content">
+    <div class="section-2" id="about">
+        <div class="container">
+            <div class="layer-border">
+                <div class="border-space">
+                    <div class="image">
+                        <img src="/img/about/profile.jpg" alt="human">
+                        <div class="icons-layer">
+                            <div class="icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-google"></i>
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                           
                         </div>
-                       
                     </div>
                 </div>
+                
+               
             </div>
             
-           
-        </div>
-        
-        <div class="about">
+            <div class="about">
            
             <h2>Hello,</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -81,7 +85,6 @@
         <li><span>Location:</span>  United States, US </li>
         <li><span>E-mail:</span>  Nadia420@gmail.com </li>
     </ul>
-    <div class="clr"></div>
 </div>
 
 <div class="btns">
@@ -90,56 +93,56 @@
     <button class="Hire">Hire Me <i class="fa-solid fa-paper-plane"></i></button>
 </div>
             
+            </div>
         </div>
-        <div class="clr"></div>
     </div>
 
- <div class="section-3">
-     <div class="header">
-         <h2>Our Service</h2>
-         <hr class="up"><hr class="mid"><hr class="up">
-     </div>
-     <div class="layout">
+ <div class="section-3" id="services">
+     <div class="container">
+         <div class="header">
+             <h2>Our Service</h2>
+             <hr class="up"><hr class="mid"><hr class="up">
+         </div>
+         <div class="layout">
          <div class="service">
             <i class="fa-solid fa-pen-ruler fa-2x"></i>
             <h4>UI/UX DESIGN</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+            <p>Creating intuitive and engaging user experiences through thoughtful design and user research.</p>
          </div>
          <div class="service">
             <i class="fa-solid fa-code fa-2x"></i>
-            <h4>UI/UX DESIGN</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+            <h4>WEB DEVELOPMENT</h4>
+            <p>Building responsive, fast, and accessible websites using modern technologies and best practices.</p>
          </div>
          <div class="service">
             <i class="fa-brands fa-uncharted fa-2x "></i>
-            <h4>UI/UX DESIGN</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+            <h4>BRAND IDENTITY</h4>
+            <p>Developing cohesive visual identities that communicate your brand's values and connect with your audience.</p>
          </div>
          <div class="service">
             <i class="fa-solid fa-gears fa-2x"></i>
-            <h4>UI/UX DESIGN</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci mollitia quis necstatibus.</p>
+            <h4>CONSULTATION</h4>
+            <p>Providing strategic guidance on digital transformation and technology solutions for your business needs.</p>
          </div>
-         <div class="clr"></div>
      </div>
  </div>
     
-<div class="section-4">
-    <div class="title">
-        <h2>Our Portfolio</h2>
-        <hr class="up"> <hr class="mid"> <hr class="up">
-    </div>
-    <div class="classified">
-        <ul>
-            <li>ALL</li>
-            <li>GRAPHIC </li>
-            <li>WEB DESIGN </li>
-            <li>BRANDING</li>
-        </ul>
-    </div>
-    <div class="clr"></div>
-    <div class="all-items">
-        <div class="items">
+<div class="section-4" id="portfolio">
+    <div class="container">
+        <div class="title">
+            <h2>Our Portfolio</h2>
+            <hr class="up"> <hr class="mid"> <hr class="up">
+        </div>
+        <div class="classified">
+            <ul>
+                <li>ALL</li>
+                <li>GRAPHIC </li>
+                <li>WEB DESIGN </li>
+                <li>BRANDING</li>
+            </ul>
+        </div>
+        <div class="all-items">
+        <div class="items" data-category="graphic">
             <div class="items-mg"><img src="/img/portfolio/1.jpg" alt="clock">
             
                 <div class="up-layer">
@@ -151,7 +154,7 @@
            
         </div>
         
-        <div class="items">
+        <div class="items" data-category="web design">
             <div class="items-mg">
                 <img src="/img/portfolio/2.jpg" alt="watch">
             <div class="up-layer">
@@ -160,7 +163,7 @@
             </div>
             
         </div>
-        <div class="items">
+        <div class="items" data-category="graphic">
             <div class="items-mg">
                 <img src="/img/portfolio/3.jpg" alt="cards">
                 <div class="up-layer">
@@ -170,7 +173,7 @@
             </div>
             
         </div>
-        <div class="items">
+        <div class="items" data-category="branding">
             <div class="items-mg">
                 <img src="/img/portfolio/4.jpg" alt="sneakrs">
             <div class="up-layer">
@@ -179,7 +182,7 @@
             </div>
             
         </div>
-        <div class="items">
+        <div class="items" data-category="web design">
             <div class="items-mg">
                 <img src="/img/portfolio/5.jpg" alt="color-cards">
                 <div class="up-layer">
@@ -188,7 +191,7 @@
             </div>
             
         </div>
-        <div class="items">
+        <div class="items" data-category="branding">
             <div class="items-mg">
                 <img src="/img/portfolio/6.jpg" alt=" air-pods">
                 <div class="up-layer">
@@ -197,64 +200,61 @@
             </div>
             
         </div>
-        <div class="clr"></div>
     </div>
-   
 </div>
 <div class="section-5">
-    <div class="info">
-        <i class="fa-solid fa-users-line fa-2x"></i>
-        <h4>200</h4>
-        <p>Team members</p>
+    <div class="container">
+        <div class="info">
+            <i class="fa-solid fa-users-line fa-2x"></i>
+            <h4>200</h4>
+            <p>Team members</p>
+        </div>
+        <div class="info">
+            <i class="fa-regular fa-copy fa-2x"></i>
+            <h4>345</h4>
+            <p>Complete Projects</p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-cloud-arrow-down fa-2x"></i>
+            <h4>1800</h4>
+            <p>Files Downloaded</p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-mug-saucer fa-2x"></i>
+            <h4>1200</h4>
+            <p>Lines Of Code</p>
+        </div>
     </div>
-    <div class="info">
-        <i class="fa-regular fa-copy fa-2x"></i>
-        <h4>345</h4>
-        <p>Complete Projects</p>
-    </div>
-    <div class="info">
-        <i class="fa-solid fa-cloud-arrow-down fa-2x"></i>
-        <h4>1800</h4>
-        <p>Files Downloaded</p>
-    </div>
-    <div class="info">
-        <i class="fa-solid fa-mug-saucer fa-2x"></i>
-        <h4>1200</h4>
-        <p>Lines Of Code</p>
-    </div>
-    <div class="clr"></div>
 </div>
-<div class="section-6">
-    <div class="head">
-        <h3>Client's Feedback</h3>
-        <hr class="up"> <hr class="mid"> <hr class="up">
-    </div>
-<div class="alex">
+<div class="section-6" id="testimonial">
+    <div class="container">
+        <div class="head">
+            <h3>Client's Feedback</h3>
+            <hr class="up"> <hr class="mid"> <hr class="up">
+        </div>
+        <div class="alex">
     <div class="alex-img">
         <img src="/img/testimonial/2.jpg" alt="Alex">
     </div>
     <div class="edge"></div>
     <div class="describtion">
         <h3>Alex ander</h3>
-      <span> <i class="fa-solid fa-location-dot"></i> </span>  <h4> United</h4>
-      <div class="clr"></div>
+        <h4><i class="fa-solid fa-location-dot"></i> United</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ducimus ex magni sunt, architecto
             vel dolore, laudantium dignissimos debitis optio! Exercitationem adipisicing elit.</p>
             <img src="/img/testimonial/stars.png" alt="stars">
+        </div>
+        <div class="cylinder"></div>
+        <div class="circle"></div>
     </div>
-    <div class="clr"></div>
 </div>
-<div class="cylinder">
-
-</div>
-<div class="circle"></div>
-</div>
-<div class="section-7">
-    <div class="blog-title">
-        <h2>Our Blog</h2>
-        <hr class="up"><hr class="mid"><hr class="up">
-    </div>
-    <div class="blog-desc">
+<div class="section-7" id="blog">
+    <div class="container">
+        <div class="blog-title">
+            <h2>Our Blog</h2>
+            <hr class="up"><hr class="mid"><hr class="up">
+        </div>
+        <div class="blog-desc">
         <div class="blog-info">
             <div class="post">
                 <img src="/img/blog/1.jpg" alt="Girl">
@@ -284,39 +284,175 @@
         </div>
     </div>
 </div>
-</div>
-<div class="section-8">
-    <div class="contact-title">
-        <h2>Contact Us</h2>
-        <hr class="up"><hr class="mid"><hr class="up">
-
-    </div>
-    <form> 
-        <div class="one-input">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="text" name="email" placeholder="Email" required>
+<div class="section-8" id="contact">
+    <div class="container">
+        <div class="contact-title">
+            <h2>Contact Us</h2>
+            <hr class="up"><hr class="mid"><hr class="up">
         </div>
-        <div class="two-input">
+        <form> 
+        <div class="form-row">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-row">
             <input type="text" name="subject" placeholder="Subject" required>
         </div>
-        <textarea name="message" id="message" cols="100" rows="4" placeholder="Message for me" required></textarea>
-    <button type="submit">Send Message</button>
-    </form>
+        <textarea name="message" id="message" rows="6" placeholder="Message for me" required></textarea>
+        <button type="submit">Send Message</button>
+        </form>
+    </div>
 </div>
 
 <div class="section-9">
-    <div class="footer">
-        <div class="icons-footer">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-google"></i>
-            <i class="fa-brands fa-github"></i>
-        </div>
-        <div class="copy">
-            <p>Copy Right 2018 © By<span> Theme-fair</span> All Rights Reserved</p>
+    <div class="container">
+        <div class="footer">
+            <div class="icons-footer">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="copy">
+                <p>Copy Right 2018 © By<span> Theme-fair</span> All Rights Reserved</p>
+            </div>
         </div>
     </div>
-</div>
+    </div>
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const links = document.querySelector('.links');
+        
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            links.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                links.classList.remove('active');
+            });
+        });
+
+        // Portfolio Filtering
+        const filterButtons = document.querySelectorAll('.classified li');
+        const portfolioItems = document.querySelectorAll('.items');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.textContent.toLowerCase();
+                
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeIn 0.5s ease-in-out';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animation
+        document.querySelectorAll('.service, .items, .blog-info, .info').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Scroll to Top Button
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('show');
+            } else {
+                scrollToTopBtn.classList.remove('show');
+            }
+        });
+        
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Form validation
+        const form = document.querySelector('form');
+        if (form) {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const inputs = form.querySelectorAll('input[required], textarea[required]');
+                let isValid = true;
+                
+                inputs.forEach(input => {
+                    if (!input.value.trim()) {
+                        input.style.borderColor = '#ff305b';
+                        isValid = false;
+                    } else {
+                        input.style.borderColor = '#e1e1e1';
+                    }
+                });
+                
+                if (isValid) {
+                    // Show success message
+                    const submitBtn = form.querySelector('button[type="submit"]');
+                    const originalText = submitBtn.textContent;
+                    submitBtn.textContent = 'Message Sent!';
+                    submitBtn.style.backgroundColor = '#28a745';
+                    
+                    setTimeout(() => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.style.backgroundColor = '';
+                        form.reset();
+                    }, 3000);
+                }
+            });
+        }
+    </script>
 
     </body>
 </html>
